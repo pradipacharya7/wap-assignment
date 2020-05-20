@@ -1,0 +1,96 @@
+*
+{
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+ p
+{
+	font-color: #404040;
+	font-size:11px;
+	font-family:serif;
+}
+.header nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background: grey;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.header nav li
+{
+	float: left;
+}
+
+.header nav li a
+{
+	margin: 0px;
+	padding: 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+.header nav li a:hover
+{
+	background-color: green;
+}
+
+.footer footer ul
+{
+	margin: 0px;
+	padding: 0px;
+	background: grey;
+	list-style-type: none;
+	overflow: hidden;
+}
+.footer footer li a
+{
+	margin: 0px;
+	padding: 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#pie 
+{
+background-color: #F0F0F0; 
+color:#A4A400;	
+text-align:  center;
+text-decoration: underline;
+font-weight: bold;
+font-size:22px;
+font-family: Lucida Sans Unicode, Helvetica, Arial,sans-serif;
+}
+
+.pie-image
+{
+	margin: 0px;
+	padding: 0px;
+}
+#ingredents h1,#directions h1,#user-comments h1,#links h1
+{
+margin: 0px;
+padding: 0px;
+font-size:24px;
+background-color: #F0F0F0; 
+color:#A4A400;	
+text-decoration: underline;
+font-family: Lucida Sans Unicode, Helvetica, arial,sans-serif;
+font-size:18px;
+
+}
+#user-comments pre
+{
+margin-left:10px; 
+background-color: yellow;
+font-size: 16px;
+font-family: initial;
+font-style: italic;
+}
+
+#links a
+{
+	color: brown;
+}

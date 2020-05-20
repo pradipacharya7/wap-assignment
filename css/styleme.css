@@ -1,0 +1,50 @@
+body
+{
+	background: #666666;
+}
+h1,h2
+{
+	color: #99ccff;
+}
+.name,.uni-name,.country-name
+{
+	color: #ffff66;
+}
+.main-pic
+{
+	  border-radius: 50%;
+	  width:200px;
+	  height:200px;
+}
+p,ul li,ol li
+{
+	color: white;
+}
+em
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	color: white;
+}
+.happy_image,.sad_image
+{
+height: 300px;
+width: 200px;
+}
+span a
+{
+	color: red;
+}
+li a
+{
+	text-decoration: none;
+}
+.fun-facts
+{
+font-style: oblique;
+font-family: Georgia;
+font-variant: normal;
+font-weight: normal;
+}
+
