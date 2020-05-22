@@ -5,9 +5,6 @@
 	<meta charset="utf-8">
 	<meta name="viweport" content="width=divice-width,initial-scale 1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<style type="text/css">
-		
-	</style>
 </head>
 <body>
 <div class="checkout-form">
@@ -27,10 +24,10 @@
 	<fieldset>
 		<legend>Billing Address</legend>
 		<table>
-		<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text" required=""></td></tr>
+		<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text" required></td></tr>
 		<tr><td><label>Address Line 2</label></td><td><input name="address-line1" type="text"></td></tr>
-		<tr><td><label>State</label></td><td><input name="state" type="text" required=""></td>
-		<td><label>ZIP</label></td><td><input name="zip" type="text" required=""></td></tr>
+		<tr><td><label>State</label></td><td><input name="state" type="text" required></td>
+		<td><label>ZIP</label></td><td><input name="zip" type="text" required></td></tr>
 		</table>
 	</fieldset>
 
@@ -38,29 +35,29 @@
 		<legend>Payment Information</legend>
 		<table>
 		<tr><td><label>Country</label></td>
-		<td><select required="">
-			<option selected="">USA</option>
+		<td><select required>
+			<option selected>USA</option>
 			<option>Canada</option>
 			<option>Japan</option>
 			<option>UK</option>
 		</select></td></tr>
-		<tr><td><label>Card Number</label></td><td><input type="text" name="card-number" required=""></td></tr>
-		<tr><td><label>Payment Type</label></td><td><label> <input type="radio" name="payment-type" value=""><img src="images/paypal-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" value=""><img src="images/discover-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" value=""><img src="images/debit.jpg" alt="credit-card"/></label></td></tr>
-		<tr><td><label>Expiration Date</label></td><td> <input type="date" name="expiration-data"></td></tr>
-		<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="text" name=""></td></tr>
+		<tr><td><label>Card Number</label></td><td><input type="text" name="card-number" required></td></tr>
+		<tr><td><label>Payment Type</label></td><td><label> <input type="radio" name="payment-type"><img src="images/paypal-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" ><img src="images/discover-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type"><img src="images/debit.jpg" alt="credit-card"/></label></td></tr>
+		<tr><td><label>Expiration Date</label></td><td><input type="date" name="expiration-date"></td></tr>
+		<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="text" name="css"></td></tr>
 		</table>
 	</fieldset>
-	<div>
+	
 	<div>
 	<label><input type="checkbox" name="aggrement">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.</label></td><td></td>
+	tempor incididunt ut labore et dolore magna aliqua.</label>
 	</div>
 
 	<div>
 	<input type="submit" value="Place Order" >
 	<input type="reset" value="Clear">
 	</div>
-	</div>
+	
 
 </fieldset>
 </form>
