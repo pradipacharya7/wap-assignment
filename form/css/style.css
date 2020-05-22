@@ -63,13 +63,11 @@ input[type="reset"]
 	width: 40%;
 	float: right;
 }
-#main-legend
+/*#main-legend
 {
 	font-size: 26px;
 	text-shadow: 2px 2px solid grey;
-
-
-}
+}*/
 fieldset{
 	border: 1px dashed;
     border-radius: 5px;
