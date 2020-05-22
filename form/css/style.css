@@ -5,8 +5,9 @@
 	margin-top:5%;
 	margin-left: 25%;
 	margin-right: 25%;
-	padding: 10px;
-
+	padding: 12px 20px;
+	background: #f2f2f2;
+	border-radius: 10px;
 }
 legend
 {
@@ -31,10 +32,11 @@ img
 input[type=text],[type=email],[type=date],[type=number],select
 {
 	background: #e4e8cf;
-	border:1px solid #ccc;
+	border:2px solid #ccc;
 	width: 100%;
 	margin: auto;
 	border-radius: 5px;
+
 }
 input:valid
 {
@@ -44,17 +46,38 @@ input:focus:invalid
 {
 	background: #f54e4e;
 }
-input [type=submit]
+input[type="submit"]
 {
-	background: #00d0ff;	
+	background:  #4CAF50;
+    border: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40%;
 }
-input [type=reset]
+input[type="reset"]
 {
-	background: #ccc;	
+    border: 1px;
+    border-radius: 5px;
+    padding: 5px;
+	background:#00d0ff;
+	width: 40%;
+	float: right;
 }
 #main-legend
 {
 	font-size: 26px;
 	text-shadow: 2px 2px solid grey;
 
+
 }
+fieldset{
+	border: 1px dashed;
+    border-radius: 5px;
+    margin: 5px;
+}
+legend{
+	    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+

@@ -45,16 +45,23 @@
 			<option>UK</option>
 		</select></td></tr>
 		<tr><td><label>Card Number</label></td><td><input type="text" name="card-number" required=""></td></tr>
-		<tr><td><label>Payment Type</label></td><td> <input type="radio" name="payment-type" value=""><img src="images/paypal-logo.png" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="images/discover-logo.png" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="images/debit.jpg" alt="credit-card"/></td></tr>
+		<tr><td><label>Payment Type</label></td><td><label> <input type="radio" name="payment-type" value=""><img src="images/paypal-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" value=""><img src="images/discover-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" value=""><img src="images/debit.jpg" alt="credit-card"/></label></td></tr>
 		<tr><td><label>Expiration Date</label></td><td> <input type="date" name="expiration-data"></td></tr>
 		<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="text" name=""></td></tr>
 		</table>
 	</fieldset>
-	<table>
-	<tr><td><input type="checkbox" name="aggrement">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.</td></tr>
-	<tr><td><input type="submit" value="Place Order" style="background: #00d0ff; border-radius: 5px;"></td><td> <input type="reset" value="Clear" style="background: #ccc; border-radius: 5px;"></td></tr>
-</table>
+	<div>
+	<div>
+	<label><input type="checkbox" name="aggrement">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</label></td><td></td>
+	</div>
+
+	<div>
+	<input type="submit" value="Place Order" >
+	<input type="reset" value="Clear">
+	</div>
+	</div>
+
 </fieldset>
 </form>
 
