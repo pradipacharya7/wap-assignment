@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+<div class="checkout-form">
+
+<form>
+	<fieldset>
+		<legend>Check out Form</legend>
+	<fieldset>
+		<legend>Personal Details</legend>
+		<table>
+		<tr><td><label>First Name</label></td><td><input type="text" name="firstname"></td></tr>
+		<tr><td><label>Last Name</label></td><td><input type="text" name="lastname"></td></tr>
+		<tr><td><label>Email</label></td><td><input type="email" name="email"></td></tr>
+	</table>
+
+	</fieldset>
+	<fieldset>
+		<legend>Billing Address</legend>
+		<table>
+		<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text"></td></tr>
+		<tr><td><label>Address Line 2</label></td><td><input name="address-line1" type="text"></td></tr>
+		<tr><td><label>State</label></td><td><input name="state" type="text"></td>
+		<td><label>ZIP</label></td><td><input name="zip" type="text"></td></tr>
+		</table>
+	</fieldset>
+
+	<fieldset>
+		<legend>Payment Information</legend>
+		<table>
+		<tr><td><label>Country</label></td>
+		<td><select>
+			<option>USA</option>
+			<option>Canada</option>
+			<option>Japan</option>
+			<option>UK</option>
+		</select></td></tr>
+		<tr><td><label>Card Number</label></td><td><input type="text" name="card-number"></td></tr>
+		<tr><td><label>Payment Type</label></td><td> <input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/></td></tr>
+		<tr><td><label>Expiration Date</label></td><td> <input type="date" name="expiration-data"></td></tr>
+		<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="csc" name=""></td></tr>
+		</table>
+	</fieldset>
+	<table>
+	<tr><td><input type="checkbox" name="aggrement">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</td></tr>
+	<tr><td><button type="submit">Place Order</button> <button type="reset">Clear</button></td></tr>
+</table>
+</fieldset>
+</form>
+
+</div>
+<div class="validator-section">
+		<p> 
+			<a href="https://validator.w3.org/check/referer"> 
+				<img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Validate" /> 
+			</a>
+			<br/>
+			<a href="https://jigsaw.w3.org/css-validator/check/referer"> 
+				<img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Validate" /> 
+			</a>
+		</p>
+	</div>
+</body>
+</html>

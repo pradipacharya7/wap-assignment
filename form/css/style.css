@@ -1,0 +1,21 @@
+
+.checkout-form
+{
+	width: 50%;
+	margin: auto;
+
+}
+legend
+{
+	text-align: center;
+}
+table 
+{
+	vertical-align: center;
+}
+.validator-section{
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
