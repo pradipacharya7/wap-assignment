@@ -2,7 +2,10 @@
 .checkout-form
 {
 	width: 50%;
-	margin: auto;
+	margin-top:5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 10px;
 
 }
 legend
@@ -18,4 +21,40 @@ table
     bottom: 0;
     right: 0;
     opacity: 0.5;
+}
+img
+{
+	height: 40px;
+	width: 60px;
+	vertical-align: baseline;
+}
+input[type=text],[type=email],[type=date],[type=number],select
+{
+	background: #e4e8cf;
+	border:1px solid #ccc;
+	width: 100%;
+	margin: auto;
+	border-radius: 5px;
+}
+input:valid
+{
+	background: #e4e8cf;
+}
+input:focus:invalid
+{
+	background: #f54e4e;
+}
+input [type=submit]
+{
+	background: #00d0ff;	
+}
+input [type=reset]
+{
+	background: #ccc;	
+}
+#main-legend
+{
+	font-size: 26px;
+	text-shadow: 2px 2px solid grey;
+
 }

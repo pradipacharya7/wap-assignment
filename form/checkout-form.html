@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	<title>Checkout Form</title>
+	<meta charset="utf-8">
+	<meta name="viweport" content="width=divice-width,initial-scale 1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style type="text/css">
 		
@@ -12,23 +14,23 @@
 
 <form>
 	<fieldset>
-		<legend>Check out Form</legend>
+		<legend id="main-legend">Check out Form</legend>
 	<fieldset>
 		<legend>Personal Details</legend>
 		<table>
 		<tr><td><label>First Name</label></td><td><input type="text" name="firstname"></td></tr>
 		<tr><td><label>Last Name</label></td><td><input type="text" name="lastname"></td></tr>
-		<tr><td><label>Email</label></td><td><input type="email" name="email"></td></tr>
+		<tr><td><label>Email</label></td><td><input type="email" name="email" required=""></td></tr>
 	</table>
 
 	</fieldset>
 	<fieldset>
 		<legend>Billing Address</legend>
 		<table>
-		<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text"></td></tr>
+		<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text" required=""></td></tr>
 		<tr><td><label>Address Line 2</label></td><td><input name="address-line1" type="text"></td></tr>
-		<tr><td><label>State</label></td><td><input name="state" type="text"></td>
-		<td><label>ZIP</label></td><td><input name="zip" type="text"></td></tr>
+		<tr><td><label>State</label></td><td><input name="state" type="text" required=""></td>
+		<td><label>ZIP</label></td><td><input name="zip" type="text" required=""></td></tr>
 		</table>
 	</fieldset>
 
@@ -36,22 +38,22 @@
 		<legend>Payment Information</legend>
 		<table>
 		<tr><td><label>Country</label></td>
-		<td><select>
-			<option>USA</option>
+		<td><select required="">
+			<option selected="">USA</option>
 			<option>Canada</option>
 			<option>Japan</option>
 			<option>UK</option>
 		</select></td></tr>
-		<tr><td><label>Card Number</label></td><td><input type="text" name="card-number"></td></tr>
-		<tr><td><label>Payment Type</label></td><td> <input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="" alt="credit-card"/></td></tr>
+		<tr><td><label>Card Number</label></td><td><input type="text" name="card-number" required=""></td></tr>
+		<tr><td><label>Payment Type</label></td><td> <input type="radio" name="payment-type" value=""><img src="images/paypal-logo.png" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="images/discover-logo.png" alt="credit-card"/><input type="radio" name="payment-type" value=""><img src="images/debit.jpg" alt="credit-card"/></td></tr>
 		<tr><td><label>Expiration Date</label></td><td> <input type="date" name="expiration-data"></td></tr>
-		<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="csc" name=""></td></tr>
+		<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="text" name=""></td></tr>
 		</table>
 	</fieldset>
 	<table>
 	<tr><td><input type="checkbox" name="aggrement">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.</td></tr>
-	<tr><td><button type="submit">Place Order</button> <button type="reset">Clear</button></td></tr>
+	<tr><td><input type="submit" value="Place Order" style="background: #00d0ff; border-radius: 5px;"></td><td> <input type="reset" value="Clear" style="background: #ccc; border-radius: 5px;"></td></tr>
 </table>
 </fieldset>
 </form>
