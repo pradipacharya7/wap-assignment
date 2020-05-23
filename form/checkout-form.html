@@ -26,8 +26,10 @@
 					<table>
 						<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text" required></td></tr>
 						<tr><td><label>Address Line 2</label></td><td><input name="address-line1" type="text"></td></tr>
-						<tr><td><label>State</label></td><td><input name="state" type="text" required></td>
-							<td><label>ZIP</label></td><td><input name="zip" type="text" required></td></tr>
+						<tr>
+						<td><label>State</label></td><td><input name="state" type="text" required></td>
+						<td><label>ZIP</label></td><td><input name="zip" type="text" required></td>
+						</tr>
 						</table>
 					</fieldset>
 
@@ -36,10 +38,10 @@
 						<table>
 							<tr><td><label>Country</label></td>
 								<td><select required>
-									<option selected>USA</option>
-									<option>Canada</option>
-									<option>Japan</option>
-									<option>UK</option>
+									<option value="usa" selected>USA</option>
+									<option value="canada">Canada</option>
+									<option value="japan">Japan</option>
+									<option value="UK">UK</option>
 								</select></td></tr>
 								<tr><td><label>Card Number</label></td><td><input type="text" name="card-number" required></td></tr>
 								<tr><td><label>Payment Type</label></td><td><label> <input type="radio" name="payment-type"><img src="images/paypal-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" ><img src="images/discover-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type"><img src="images/debit.jpg" alt="credit-card"/></label></td></tr>
