@@ -19,9 +19,9 @@ table
 }
 .validator-section{
 	position: fixed;
-    bottom: 0;
-    right: 0;
-    opacity: 0.5;
+	bottom: 0;
+	right: 0;
+	opacity: 0.5;
 }
 img
 {
@@ -49,16 +49,16 @@ input:focus:invalid
 input[type="submit"]
 {
 	background:  #4CAF50;
-    border: 1px;
-    border-radius: 5px;
-    padding: 5px;
-    width: 40%;
+	border: 1px;
+	border-radius: 5px;
+	padding: 5px;
+	width: 40%;
 }
 input[type="reset"]
 {
-    border: 1px;
-    border-radius: 5px;
-    padding: 5px;
+	border: 1px;
+	border-radius: 5px;
+	padding: 5px;
 	background:#00d0ff;
 	width: 40%;
 	float: right;
@@ -67,15 +67,17 @@ input[type="reset"]
 {
 	font-size: 26px;
 	text-shadow: 2px 2px solid grey;
-}*/
-fieldset{
-	border: 1px dashed;
-    border-radius: 5px;
-    margin: 5px;
+	}*/
+fieldset
+{
+		border: 1px dashed;
+		border-radius: 5px;
+		margin: 5px;
 }
-legend{
-	    border: 1px solid;
-    padding: 5px;
-    border-radius: 5px;
+legend
+{
+		border: 1px solid;
+		padding: 5px;
+		border-radius: 5px;
 }
 

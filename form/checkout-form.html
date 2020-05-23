@@ -2,77 +2,77 @@
 <html lang="en">
 <head>
 	<title>Checkout Form</title>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta name="viweport" content="width=divice-width,initial-scale 1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div class="checkout-form">
+	<div class="checkout-form">
 
-<form>
-	<fieldset>
-		<legend id="main-legend">Check out Form</legend>
-	<fieldset>
-		<legend>Personal Details</legend>
-		<table>
-		<tr><td><label>First Name</label></td><td><input type="text" name="firstname"></td></tr>
-		<tr><td><label>Last Name</label></td><td><input type="text" name="lastname"></td></tr>
-		<tr><td><label>Email</label></td><td><input type="email" name="email" required=""></td></tr>
-	</table>
+		<form>
+			<fieldset>
+				<legend id="main-legend">Check out Form</legend>
+				<fieldset>
+					<legend>Personal Details</legend>
+					<table>
+						<tr><td><label>First Name</label></td><td><input type="text" name="firstname"></td></tr>
+						<tr><td><label>Last Name</label></td><td><input type="text" name="lastname"></td></tr>
+						<tr><td><label>Email</label></td><td><input type="email" name="email" required=""></td></tr>
+					</table>
 
-	</fieldset>
-	<fieldset>
-		<legend>Billing Address</legend>
-		<table>
-		<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text" required></td></tr>
-		<tr><td><label>Address Line 2</label></td><td><input name="address-line1" type="text"></td></tr>
-		<tr><td><label>State</label></td><td><input name="state" type="text" required></td>
-		<td><label>ZIP</label></td><td><input name="zip" type="text" required></td></tr>
-		</table>
-	</fieldset>
+				</fieldset>
+				<fieldset>
+					<legend>Billing Address</legend>
+					<table>
+						<tr><td><label>Address Line 1</label></td><td><input name="address-line1" type="text" required></td></tr>
+						<tr><td><label>Address Line 2</label></td><td><input name="address-line1" type="text"></td></tr>
+						<tr><td><label>State</label></td><td><input name="state" type="text" required></td>
+							<td><label>ZIP</label></td><td><input name="zip" type="text" required></td></tr>
+						</table>
+					</fieldset>
 
-	<fieldset>
-		<legend>Payment Information</legend>
-		<table>
-		<tr><td><label>Country</label></td>
-		<td><select required>
-			<option selected>USA</option>
-			<option>Canada</option>
-			<option>Japan</option>
-			<option>UK</option>
-		</select></td></tr>
-		<tr><td><label>Card Number</label></td><td><input type="text" name="card-number" required></td></tr>
-		<tr><td><label>Payment Type</label></td><td><label> <input type="radio" name="payment-type"><img src="images/paypal-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" ><img src="images/discover-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type"><img src="images/debit.jpg" alt="credit-card"/></label></td></tr>
-		<tr><td><label>Expiration Date</label></td><td><input type="date" name="expiration-date"></td></tr>
-		<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="text" name="css"></td></tr>
-		</table>
-	</fieldset>
-	
-	<div>
-	<label><input type="checkbox" name="aggrement">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.</label>
-	</div>
+					<fieldset>
+						<legend>Payment Information</legend>
+						<table>
+							<tr><td><label>Country</label></td>
+								<td><select required>
+									<option selected>USA</option>
+									<option>Canada</option>
+									<option>Japan</option>
+									<option>UK</option>
+								</select></td></tr>
+								<tr><td><label>Card Number</label></td><td><input type="text" name="card-number" required></td></tr>
+								<tr><td><label>Payment Type</label></td><td><label> <input type="radio" name="payment-type"><img src="images/paypal-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type" ><img src="images/discover-logo.png" alt="credit-card"/></label><label><input type="radio" name="payment-type"><img src="images/debit.jpg" alt="credit-card"/></label></td></tr>
+								<tr><td><label>Expiration Date</label></td><td><input type="date" name="expiration-date"></td></tr>
+								<tr><td><label><abbr title="Credit Card Security Code">CSC</abbr></label></td><td><input type="text" name="css"></td></tr>
+							</table>
+						</fieldset>
 
-	<div>
-	<input type="submit" value="Place Order" >
-	<input type="reset" value="Clear">
-	</div>
-	
+						<div>
+							<label><input type="checkbox" name="aggrement">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</label>
+						</div>
 
-</fieldset>
-</form>
+						<div>
+							<input type="submit" value="Place Order" >
+							<input type="reset" value="Clear">
+						</div>
 
-</div>
-<div class="validator-section">
-		<p> 
-			<a href="https://validator.w3.org/check/referer"> 
-				<img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Validate" /> 
-			</a>
-			<br/>
-			<a href="https://jigsaw.w3.org/css-validator/check/referer"> 
-				<img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Validate" /> 
-			</a>
-		</p>
-	</div>
+
+					</fieldset>
+				</form>
+
+			</div>
+		<div class="validator-section">
+			<p> 
+				<a href="https://validator.w3.org/check/referer"> 
+					<img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Validate" /> 
+				</a>
+				<br/>
+				<a href="https://jigsaw.w3.org/css-validator/check/referer"> 
+					<img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Validate" /> 
+				</a>
+			</p>
+		</div>
 </body>
 </html>
