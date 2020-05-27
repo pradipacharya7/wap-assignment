@@ -1,4 +1,3 @@
-
 .checkout-form
 {
 	width: 50%;
@@ -44,11 +43,11 @@ input:valid
 }
 input:focus:invalid
 {
-	background: #f54e4e;
+	background:#f54e4e;
 }
 input[type="submit"]
 {
-	background:  #4CAF50;
+	background:#4CAF50;
 	border: 1px;
 	border-radius: 5px;
 	padding: 5px;
