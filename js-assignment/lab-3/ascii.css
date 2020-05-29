@@ -1,0 +1,48 @@
+*
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+body
+{
+	background-color: #CCCCFF;
+}
+h1
+{
+	font-size: 32pt;
+	font-weight: bold;
+	text-align: center;
+}
+textarea
+{
+	display: block;
+	margin: auto;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: monospace; 
+
+}
+fieldset
+{
+	display: inline;
+	margin: auto;	
+	text-align: center;
+	border: 5px solid black;
+}
+legend
+{
+	text-align: center;
+}
+.controls
+{
+	text-align: center;
+}
+.validator-section
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	opacity: 0.5;
+}
