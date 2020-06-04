@@ -1,53 +1,4 @@
-    // init = function() {
-        
-    //     var puzzleArea = document.getElementById('puzzlearea');
-    //     var divs = puzzleArea.getElementsByTagName("div");
-          
-    //     // initialize each piece
-    //     for (var i=0; i< divs.length; i++) {
 
-    //         var div = divs[i];
-            
-    //         // calculate x and y for this piece
-    //         var x = ((i % 4) * 100) ;
-    //         var y = (Math.floor(i / 4) * 100) ;
-
-    //         // set basic style and background
-    //         div.className = "puzzlepiece";
-    //         div.style.left = x + 'px';
-    //         div.style.top = y + 'px';
-    //         div.style.backgroundImage = 'url("background.jpg")';
-    //         div.style.backgroundPosition = -x + 'px ' + (-y) + 'px';
-            
-    //         // store x and y for later
-    //         div.x = x;
-    //         div.y = y; 
-    //     }        
-    // };
-    //   var shuffle = function(arr) {
-    //         var i, j, k;
-    //         for (i = arr.length -1; i > 0; i--) {
-    //         j = Math.floor(Math.random() * i)
-    //         k = arr[i]
-    //         arr[i] = arr[j]
-    //         arr[j] = k
-    //         }
-    //         return arr;
-    //     }
-
-    // $(function()
-    // {
-    //  init();
-    //  $('#shufflebutton').click(function(){
-    //      var arr=[];
-    //      $("#puzzlearea>div").each(function() {
-    //       arr.push($(this).text()); 
-    //     });
-
-    //      console.log(shuffle(arr));
-
-    // });
-    // });
 init = function() {
     var puzzleArea = document.getElementById('puzzlearea');
     var divs = puzzleArea.getElementsByTagName("div");
@@ -236,5 +187,54 @@ $(function(){
     })
 
 })
+  // init = function() {
+        
+    //     var puzzleArea = document.getElementById('puzzlearea');
+    //     var divs = puzzleArea.getElementsByTagName("div");
+          
+    //     // initialize each piece
+    //     for (var i=0; i< divs.length; i++) {
 
+    //         var div = divs[i];
+            
+    //         // calculate x and y for this piece
+    //         var x = ((i % 4) * 100) ;
+    //         var y = (Math.floor(i / 4) * 100) ;
+
+    //         // set basic style and background
+    //         div.className = "puzzlepiece";
+    //         div.style.left = x + 'px';
+    //         div.style.top = y + 'px';
+    //         div.style.backgroundImage = 'url("background.jpg")';
+    //         div.style.backgroundPosition = -x + 'px ' + (-y) + 'px';
+            
+    //         // store x and y for later
+    //         div.x = x;
+    //         div.y = y; 
+    //     }        
+    // };
+    //   var shuffle = function(arr) {
+    //         var i, j, k;
+    //         for (i = arr.length -1; i > 0; i--) {
+    //         j = Math.floor(Math.random() * i)
+    //         k = arr[i]
+    //         arr[i] = arr[j]
+    //         arr[j] = k
+    //         }
+    //         return arr;
+    //     }
+
+    // $(function()
+    // {
+    //  init();
+    //  $('#shufflebutton').click(function(){
+    //      var arr=[];
+    //      $("#puzzlearea>div").each(function() {
+    //       arr.push($(this).text()); 
+    //     });
+
+    //      console.log(shuffle(arr));
+
+    // });
+    // });
 
