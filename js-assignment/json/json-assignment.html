@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="json-assignment.js"></script>
+	<style type="text/css">
+		#wrapper,form
+		{
+			width: 50%;
+			margin: auto;
+			background-color: #e1dddd;
+			border-radius: 5px;
+		}
+		button,input[type="submit"]
+		{
+			display: inline-block;
+			border: 2px solid black;
+			border-radius: 5px;
+			width: 50%;
+			margin: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			color: white;
+			background-color: #276ce9;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		input[type="text"]
+		{
+			display: inline-block;
+			border: 2px solid black;
+			border-radius: 5px;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			/*color: white;*/
+			padding: 10px;
+			background-color: white;
+		}
+		
+	table
+	{
+	  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+table td, th 
+	{
+	  border: 1px solid #ddd;
+	  padding: 8px;
+	  text-align: center;
+	}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+<!-- <button id="getposts">Get Posts</button>
+<button id="getcomments">Get Comments</button> -->
+<form id="formSubmit">
+	<label>User ID</label><input type="text" name="userId" id="userId">
+	<input type="submit"  value="Submit">
+</form>
+<div id="user-info">
+	<table border="2">
+		<caption>User Details</caption>
+		<thead><th>Name</th>
+			<th>
+		Email</th></thead>
+		<tbody>
+			<tr>
+				<td id="name"></td>
+				<td id="email"></td>
+			</tr>
+			<tr><td><button id="getposts">Get Posts</button></td>
+				<td><button>Get Comments</button></td>
+			</tr>
+
+		</tbody>
+	</table>
+</div>
+<div id="allPosts">
+<h1>All Posts</h1>
+
+</div>
+<div id="allcomments">
+<h1>All Comments</h1>
+
+</div>
+</div>
+</body>
+</html>
